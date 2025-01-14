@@ -136,4 +136,57 @@ html{
     font-weight: bold;
 
 }
-  
+.sobremi .fila{
+    display: felx;
+}  
+.sobremi .file .col{
+    width: 50%;
+}
+.sobremi .file .col h3{
+    font-size: 28px;
+    font-family: 'Righteous';
+    margin-bottom: 25px;
+}
+.sobremi .file .col ul{
+    list-style: none;
+}
+.sobremi.file ul li{
+    margin: 12px 0;
+}
+.sobremi .fila .col ul li strong{
+    display: inline-block;
+    color: #db4ddb;
+    width: 130px;
+}
+.sobremi.fila .col ul li span{
+    background-color: #db4ddb;
+    padding: 3px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.sobremi button{
+    cursor: pointer;
+    background-color: transparent;
+    border: 2px solid #fff;
+    width: fit-content;
+    display: block;
+    margin: 20px auto;
+    padding: 10px 22px;
+    font-size: 16px;
+    color: #fff;
+    position: relative;
+    z-index: 10;
+}
+.sobremi button .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background-color: #db4ddb;
+    z-index: -1;
+    transition: 1s;
+}
+.sobremi button:hover .overlay{
+    width: 100%;
+}
